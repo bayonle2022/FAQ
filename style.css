@@ -1,0 +1,99 @@
+body{
+    background-color: hsl(275, 100%, 97%);
+    background-image: url(./assets/images/background-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: "Work Sans";
+    font-size: 0.8rem;
+    font-style: normal;
+    
+}
+h1{
+    font-family: "Work Sans";
+    font-weight: bolder;
+    font-size: 3rem;
+    padding-left: 30px;
+    padding-top: 10px;
+    
+
+}
+img{
+    padding-right: 20px;
+ position: relative;top: 7px;
+ 
+}
+hr{
+    border-top: rgb(99, 95, 95);
+}
+
+.add{
+    color: black;
+}
+.main{
+    background-color: white;
+box-shadow: rgb(167, 165, 165);
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 150px;
+    box-shadow: 10px 10px 5px rgb(165, 165, 165);
+    border-radius: 10px;
+   
+    
+}
+.head, .head1, .head2,.head3,.head4{
+    font-size: 1rem;
+    padding-left: 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.word, .word1,.word2,.word3,.word4{
+    padding-left: 40px;
+    width: 80%;
+    color: rgb(136, 134, 134);
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+.plus{
+    width: 5%;
+    position: relative; top: 6px; left: 30px;
+}
+.two{
+    position: relative;left: 230px;
+}
+.four{
+    position: relative;left: 70px; 
+}
+.three{
+    position: relative;left: 17px;
+}
+
+
+@media(max-width : 1028px){
+    body{
+        background-image: url(./assets/images/background-pattern-mobile.svg);
+    
+    }
+h1{
+    font-size: 2rem;
+}
+img{
+    width: 10%;
+}
+    .main{
+        height: 500px;
+        width: 300px;
+        margin-top: 100px;
+        box-shadow: none;
+    }
+    .head, .head1, .head2,.head3,.head4{
+        font-size: 0.85rem;
+        width: 60%;
+
+    }
+    .plus{
+        width: 15%;
+        position: relative; top: -20px; left: 230px;
+    }
+}
